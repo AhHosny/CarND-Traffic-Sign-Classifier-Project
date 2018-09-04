@@ -66,7 +66,7 @@ Here is an example of a traffic sign image before and after grayscaling.
 
 ![alt text][image3]
 
-2. Normalizing the data to the range (-1,1) - This was done using the line of code X_train_normalized = (X_train - 128)/128. The resulting dataset mean wasn't exactly zero, but it was reduced from around 82 to roughly -0.35. I chose to do this mostly because it was suggested in the lessons and it was fairly easy to do.
+2. Normalizing the data to the range (-1,1) - This was done using the line of code X_train_normalized = (X_train - 128)/128. The resulting dataset mean wasn't exactly zero, but it was reduced from around 82 to roughly -0.35.
 
 Here is an example of traffic sign image before and after Normalization:
 
